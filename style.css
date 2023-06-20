@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  height: 100vh;
+}
+
+.block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  position: relative;
+  width: 100vw;
+}
+
+.block--dark {
+  background: #10073b;
+  color: #fff;
+}
+
+.nav__item {
+  padding-left: 2rem;
+  cursor: pointer;
+}
+
+.border__line {
+  background: #c799df;
+  height: 5px;
+  width: 10rem;
+  position: absolute;
+}
